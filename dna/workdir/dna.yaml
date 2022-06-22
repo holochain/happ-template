@@ -1,0 +1,9 @@
+---
+manifest_version: "1"
+name: dna_1
+uuid: 00000000-0000-0000-0000-000000000000
+properties: ~
+zomes: 
+  - name: zome_1
+    bundled: ../../target/wasm32-unknown-unknown/release/zome_1.wasm
+

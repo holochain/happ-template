@@ -1,0 +1,17 @@
+---
+manifest_version: "1"
+name: my-app
+description: ~
+roles:
+
+  - id: dna_1
+    provisioning:
+      strategy: create
+      deferred: false
+    dna:
+      bundled: "../dna/workdir/dna_1.dna"
+      properties: ~
+      uuid: ~
+      version: ~
+      clone_limit: 0
+
